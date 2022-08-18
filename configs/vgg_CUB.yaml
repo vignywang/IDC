@@ -1,0 +1,7 @@
+dataset_path: datasets/CUB_200_2011
+num_classes: 200
+backbone: vgg_CUB
+input_size: 256
+crop_size: 224
+threshold: 0.2
+tua: 2.75
