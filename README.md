@@ -33,7 +33,7 @@ Currently this repository is only used to facilitate reviewers to understand imp
 
 ```bash  
 git clone https://github.com/vignywang/IDC.git
-cd IDC
+cd IDC-master
 ```
 
 ### Download Datasets
