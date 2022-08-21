@@ -1,4 +1,4 @@
-# Exploring $\color{red}{hello}$ntrinsic $\color{blue}{D}$iscrimination and $\color{green}{C}$onsistency for Weakly Supervised Object Localization (under review)
+# Exploring $\color{red}{I}$ntrinsic $\color{blue}{D}$iscrimination and $\color{green}{C}$onsistency for Weakly Supervised Object Localization (under review)
 
 PyTorch implementation of ''Exploring Intrinsic Discrimination and Consistency for Weakly Supervised Object Localization'' (IDC). 
 
