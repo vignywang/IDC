@@ -6,7 +6,7 @@ PyTorch implementation of ''Exploring Intrinsic Discrimination and Consistency f
 
 ## To Do
 
-- [x] Evaluation code and Trained model for IDC.
+- [x] Evaluation code and Pretrained model for IDC.
 - [ ] Training code, more pretrained models and a more detailed readme. (Coming soon after being accepted)
 - [ ] A substantially modified version for weakly supervised semantic segmentation task (WSSS).
 
