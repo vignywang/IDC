@@ -1,4 +1,4 @@
-# Exploring Intrinsic Discrimination and Consistency for Weakly Supervised Object Localization (under review)
+# <center>Exploring Intrinsic Discrimination and Consistency for Weakly Supervised Object Localization (under review)</center>
 
 Official PyTorch implementation of ''Exploring Intrinsic Discrimination and Consistency for Weakly Supervised Object Localization'' (IDC). 
 
