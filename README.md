@@ -6,7 +6,7 @@ PyTorch implementation of ''Exploring Intrinsic Discrimination and Consistency f
 
 ## To Do
 
-- [x] Evaluation code and Pretrained model for IDC.
+- [x] Evaluation code and pretrained models for IDC.
 - [ ] Training code, more pretrained models and a more detailed readme. (Coming soon after being accepted)
 
 ## License
