@@ -1,3 +1,10 @@
+<style>
+pre {
+  overflow-y: auto;
+  max-height: 300px;
+}
+</style>
+
 # Exploring Intrinsic Discrimination and Consistency for Weakly Supervised Object Localization (under review)
 
 Official PyTorch implementation of ''Exploring Intrinsic Discrimination and Consistency for Weakly Supervised Object Localization'' (IDC). 
