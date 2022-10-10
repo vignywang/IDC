@@ -59,12 +59,12 @@ datasets
 |:------------------:|:-----------------------:|
 | [`vgg_CUB`]( https://drive.google.com/file/d/1rEi1GJ60PqrlY_xNQPc8jyAQ6dq02pc9/view?usp=sharing)   | 93.36                   
 |[`resnet_CUB`]( https://drive.google.com/file/d/1TPcqkxY3PUkdYd1iENXe7232NxLBI189/view?usp=sharing)   | 95.59                   
-|[`inception_CUB`]()| 93.33                   
-|[`mobilenet_CUB`]()| 92.67
+|[`inception_CUB`]()| 93.83                   
+|[`mobilenet_CUB`]()| 93.67
 |[`vgg_ILS`]()| 72.45
-|[`resnet_ILS`]()| 72.20
-|[`inception_ILS`]()| 73.10
-|[`mobilenet_ILS`]()| 73.61
+|[`resnet_ILS`]()| 72.90
+|[`inception_ILS`]()| 73.12
+|[`mobilenet_ILS`]()| 73.76
 ### Training <a name="63"></a> 
 
 ```
