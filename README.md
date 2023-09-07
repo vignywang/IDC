@@ -45,14 +45,6 @@ datasets
     └───train
     └───test
 ```
-* ILSVRC ([https://www.image-net.org/challenges/LSVRC/](https://www.image-net.org/challenges/LSVRC/))
-* ILSVRC dataset tree structure after preprocessing.*
-```
-datasets
-└───ILSVRC
-    └───train
-    └───test
-```
 ### Download Pretrained Models
 
 |    model name    | GT-known Loc %| 
