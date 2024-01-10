@@ -7,7 +7,7 @@ Official PyTorch implementation of ''Exploring Intrinsic Discrimination and Cons
 ## To Do
 
 - [x] Evaluation code and pretrained models for IDC.
-- [ ] Training code, more pretrained models and a more detailed readme. (Coming soon after being accepted)
+- [x] Training code. 
 
 ## License
 Our code is released under the Creative Commons BY-NC-SA 3.0 (see [LICENSE](LICENSE) for more details), available only for non-commercial use.
