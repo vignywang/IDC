@@ -12,10 +12,6 @@ Official PyTorch implementation of ''Exploring Intrinsic Discrimination and Cons
 ## License
 Our code is released under the Creative Commons BY-NC-SA 3.0 (see [LICENSE](LICENSE) for more details), available only for non-commercial use.
 
-Currently this repository is only used to facilitate reviewers to understand implementation details.
-
-
-
 ## Requirements  
   - python 3.6 
   - scipy 1.7.3
