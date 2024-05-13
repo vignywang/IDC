@@ -51,7 +51,7 @@ datasets
 ### Training <a name="63"></a> 
 
 ```
-python train.py --config ${congfigs/vgg_CUB_train.yaml} --gpu 0 
+python train.py  --gpu 0 
 ```
 
 ### Evaluation 
