@@ -88,8 +88,8 @@ class IDC(nn.Module):
         )
 
         self.classifier_loc = nn.Sequential(
-            #nn.Conv2d(1024 + 512, 200, kernel_size=3, padding=1),
-            nn.Conv2d(512, 200, kernel_size=3, padding=1),
+            nn.Conv2d(1024 + 512, 200, kernel_size=3, padding=1),
+            #nn.Conv2d(512, 200, kernel_size=3, padding=1),
         )
         initialize_weights(self.modules(), init_mode='xavier')
 
@@ -153,10 +153,10 @@ class IDC(nn.Module):
         return self.prob1
 
     def tfm_modeling(self,x_3,x_2,p_label):
-        #x_3 = F.interpolate(x_3, x_2.shape[2:], mode='bilinear')
-        #fmap_all = self.classifier_loc(torch.cat((x_2, x_3), dim=1))
+        x_3 = F.interpolate(x_3, x_2.shape[2:], mode='bilinear')
+        fmap_all = self.classifier_loc(torch.cat((x_2, x_3), dim=1))
         
-        fmap_all = self.classifier_loc(x_2)
+        #fmap_all = self.classifier_loc(x_2)
         fmap = torch.zeros(self.batch, 1, x_2.size(-2), x_2.size(-1)).cuda()
         for i in range(self.batch):
             fmap[i][0] = fmap_all[i][p_label[i]].mean(0)
