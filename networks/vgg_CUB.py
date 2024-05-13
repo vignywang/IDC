@@ -67,8 +67,8 @@ class IDC(nn.Module):
             nn.ReLU(inplace=True),
         )
         self.classifier_loc = nn.Sequential(
-            #nn.Conv2d(512+256, 200, kernel_size=3, padding=1), 
-            nn.Conv2d(256, 200, kernel_size=3, padding=1), 
+            nn.Conv2d(512+256, 200, kernel_size=3, padding=1), 
+            #nn.Conv2d(256, 200, kernel_size=3, padding=1), 
         )
 
     def forward(self, x, label=None):
