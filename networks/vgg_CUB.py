@@ -215,10 +215,10 @@ class IDC(nn.Module):
         return expected_coord_n
 
     def tfm_modeling(self,x_3,x_4,p_label):
-        #x_4 = F.interpolate(x_4, x_3.shape[2:], mode='bilinear')
-        #fmap_all = self.classifier_loc(torch.cat((x_3, x_4), dim=1))
+        x_4 = F.interpolate(x_4, x_3.shape[2:], mode='bilinear')
+        fmap_all = self.classifier_loc(torch.cat((x_3, x_4), dim=1))
         
-        fmap_all = self.classifier_loc(x_3)
+        #fmap_all = self.classifier_loc(x_3)
         fmap = torch.zeros(self.batch, 1, x_3.size(-2), x_3.size(-1)).cuda()
         for i in range(self.batch):
             fmap[i][0] = fmap_all[i][p_label[i]].mean(0)
